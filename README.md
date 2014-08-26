@@ -1,9 +1,9 @@
-# Loglog Chrome DevTools Transport
+# Loglog Node to Chrome DevTools Transport
 
-> Logging transport to chrome dev tools for loglog
+> Logging transport from node to chrome dev tools for loglog
 
 __Install:__
 
 ```
-npm install loglog-dev-tools
+npm install loglog-node-chrome
 ```
