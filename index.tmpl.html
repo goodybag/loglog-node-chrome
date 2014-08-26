@@ -2,11 +2,9 @@
 <html>
   <head>
     <script src="https://cdn.socket.io/socket.io-1.0.6.js"></script>
+    <script src="/node_modules/loglog-dev-tools/index.js"></script>
     <script>
-      var socket = io('http://localhost:{port}');
-      socket.on('entry', function( entry ){
-        console.log(entry);
-      });
+      io('http://localhost:{port}').on( 'entry', loglogDevTools() );
     </script>
   </head>
   <body>
