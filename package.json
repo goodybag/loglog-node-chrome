@@ -1,6 +1,6 @@
 {
   "name": "loglog-node-chrome",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Logging transport for loglog that opens chrome and displays entries in the dev console",
   "main": "index.js",
   "directories": {
