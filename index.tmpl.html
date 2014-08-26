@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.socket.io/socket.io-1.0.6.js"></script>
+    <script>
+      var socket = io('http://localhost:{port}');
+      socket.on('entry', function( entry ){
+        console.log(entry);
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Open your dev console</h1>
+  </body>
+</html>

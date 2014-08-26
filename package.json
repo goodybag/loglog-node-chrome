@@ -1,0 +1,39 @@
+{
+  "name": "loglog-node-chrome",
+  "version": "1.0.1",
+  "description": "Logging transport for loglog that opens chrome and displays entries in the dev console",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "mocha": "^1.21.4"
+  },
+  "peerDependencies": {
+    "loglog": "*"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goodybag/loglog-node-chrome.git"
+  },
+  "keywords": [
+    "loglog",
+    "chrome",
+    "dev tools"
+  ],
+  "author": "John Fawcett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goodybag/loglog-node-chrome/issues"
+  },
+  "homepage": "https://github.com/goodybag/loglog-node-chrome",
+  "dependencies": {
+    "node-static": "^0.7.4",
+    "socket.io": "^1.0.6"
+  }
+}
